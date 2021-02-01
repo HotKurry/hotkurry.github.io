@@ -1,0 +1,102 @@
+.Business {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 16.66rem;
+    margin: 0 .5rem 0rem .5rem;
+    background-color: #212121;
+    border-radius: .5rem;
+  }
+
+  .Business .image-container {
+    height: 16.66rem;
+    margin: .75rem;
+
+  }
+  
+  .Business h2 {
+    margin: 0 .5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  
+  .wifu-info, .card-info {
+    margin:.5rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .wifu-info p, .card-info p {
+    font-size: .88rem;
+    font-weight: 300;
+    line-height: 1rem;
+  }
+.card-info{
+    background-color:#484848;
+  border-radius:.4rem;
+  margin: 0 .2rem 2.3rem .5rem;
+  padding:.5em;
+  width:12rem;
+  position: relative;
+  top:-5px;
+  float:right;
+
+}
+  
+  .Business-address {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .value-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: right;
+  }
+  .flavor-info{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding-bottom: .5rem;
+  }
+  
+  .value-info h3 {
+    color: #FF8000;
+    font-weight: 600;
+  }
+  
+  .value-info .rating {
+    font-size: .88rem;
+    line-height: 1rem;
+  }
+  .flavor-info p{
+    font-size: .75rem;
+    line-height: 1rem;
+    font-style:italic;
+    font-weight:600;
+    margin: 0rem .5rem .5rem;
+  }
+  
+  .pricebox{
+    display: flex;
+    justify-content: space-between;
+    text-align: right;
+    flex-direction: column;
+  }
+  .namebox{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    font-style:italic;
+
+  }
+  .green{
+    display:inline;
+    color:limegreen;
+    font-weight:600;
+  }
+.wifu-info .pricebox .green {
+  font-weight:600;
+}
