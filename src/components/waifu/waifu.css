@@ -1,4 +1,4 @@
-.Business {
+.waifu {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -8,13 +8,13 @@
     border-radius: .5rem;
   }
 
-  .Business .image-container {
+  .waifu .image-container {
     height: 16.66rem;
     margin: .75rem;
 
   }
   
-  .Business h2 {
+  .waifu h2 {
     margin: 0 .5rem;
     font-size: 1.2rem;
     font-weight: 600;
@@ -43,7 +43,7 @@
 
 }
   
-  .Business-address {
+  .waifu-address {
     display: flex;
     flex-direction: column;
     justify-content: space-between;

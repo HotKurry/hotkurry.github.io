@@ -1,9 +1,9 @@
 import React from 'react';
-import './Business.css';
+import './waifu.css';
 
 
 
-var business = {
+var waifutemp = {
     imageSrc: 'http://localhost:3000/misty.png',
     name: 'Misty',
     media: 'Anime',
@@ -13,35 +13,35 @@ var business = {
     rating: 2469,
     Value: 9001
   };
-  class Business extends React.Component {
+  class waifu extends React.Component {
     render() {
         return(
           <div className="Cardbox">
-      <div className="Business">
+      <div className="waifu">
         <div className="image-container">
-          <img src={business.imageSrc} alt=''/>
+          <img src={waifutemp.imageSrc} alt=''/>
         </div>
-        <h2>{business.name}</h2>
+        <h2>{waifutemp.name}</h2>
         <div className="wifu-info">
-          <div className="Business-address">
-            <p>{business.media}</p>
-            <p>{business.source}</p>
+          <div className="waifu-address">
+            <p>{waifutemp.media}</p>
+            <p>{waifutemp.source}</p>
           </div>
           <div className="value-info">
-            <h3 className="rating">{business.rating}</h3>
+            <h3 className="rating">{waifutemp.rating}</h3>
             <p></p>
           </div>
         </div>
           <div className="flavor-info">
-            <p>{business.flavortext}</p>  
+            <p>{waifutemp.flavortext}</p>  
           </div>
           </div>
           <div className="card-info">
             <div className="namebox">
-              <p>{business.Partner}</p>
+              <p>{waifutemp.Partner}</p>
             </div>
           <div className="pricebox">
-            <p><p className="green">{business.Value}(+24%)</p></p>
+            <p><p className="green">{waifutemp.Value}(+24%)</p></p>
           </div>
         </div>
       </div>
@@ -50,4 +50,4 @@ var business = {
     )
     }
 }
-export default Business;
+export default waifu;
