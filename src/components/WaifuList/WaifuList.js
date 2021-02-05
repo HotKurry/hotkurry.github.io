@@ -1,10 +1,10 @@
 import React from 'react';
-import './BusinessList.css';
+import './WaifuList.css';
 import Waifu from '../waifu/waifu';
-class BusinessList extends React.Component {
+class WaifuList extends React.Component {
     render() {
         return(
-            <div class="BusinessList">
+            <div class="WaifuList">
             <Waifu />
             <Waifu />
             <Waifu />
@@ -17,4 +17,4 @@ class BusinessList extends React.Component {
     }
 }
 
-export default BusinessList;
+export default WaifuList;

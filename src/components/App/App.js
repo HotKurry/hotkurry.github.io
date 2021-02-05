@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import SearchBar from '../SearchBar/SearchBar';
-import BusinessList from '../BusinessList/BusinessList';
+import WaifuList from '../WaifuList/WaifuList';
 
 class App extends React.Component {
   render(){
@@ -9,7 +9,7 @@ class App extends React.Component {
 <div className="App">
   <h1>Bae Trade</h1>
   <SearchBar />
-  <BusinessList />
+  <WaifuList />
 </div>
     );
   }
