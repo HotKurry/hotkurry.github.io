@@ -11,7 +11,6 @@ class WaifuList extends React.Component {
             <Waifu />
             <Waifu />
             <Waifu />
-
           </div> 
         )
     }
