@@ -41,7 +41,7 @@ var waifutemp = {
               <p>{waifutemp.Partner}</p>
             </div>
           <div className="pricebox">
-            <p><p className="green">{waifutemp.Value}(+24%)</p></p>
+            <p><p className="green">{waifutemp.Value}(+33%)</p></p>
           </div>
         </div>
       </div>
