@@ -11,7 +11,6 @@
   .waifu .image-container {
     height: 16.66rem;
     margin: .75rem;
-
   }
   
   .waifu h2 {
@@ -32,7 +31,7 @@
     line-height: 1rem;
   }
 .card-info{
-    background-color:#484848;
+  background-color:#484848;
   border-radius:.4rem;
   margin: 0 .2rem 2.3rem .5rem;
   padding:.5em;
@@ -40,7 +39,6 @@
   position: relative;
   top:-5px;
   float:right;
-
 }
   
   .waifu-address {
@@ -90,8 +88,8 @@
     justify-content: space-between;
     flex-direction: column;
     font-style:italic;
-
   }
+  
   .green{
     display:inline;
     color:limegreen;
