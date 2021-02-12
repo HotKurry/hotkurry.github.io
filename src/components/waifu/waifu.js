@@ -40,6 +40,7 @@ var waifutemp = {
           <div className="card-info">
               <a>{waifutemp.Partner}</a>
         </div>
+        <button class="enableEthereumButton">Enable Ethereum</button>
       </div>
       
 
