@@ -19,23 +19,6 @@
     font-weight: 600;
   }
   
-.card-info a{
-  background-color:#484848;
-  border-radius:.4rem;
-  margin: 0 .2rem 2.3rem .5rem;
-  padding:.5em;
-  position: relative;
-  top:-5px;
-  float:right;
-  background-color: #fd68ab;
-  color: #ffffff;
-  font-weight: 600;
-  transition: background-color .5s;
-}
-.card-info a:hover {
-  cursor: pointer;
-  background-color: #fd4f9d;
-}
   
   .waifu-address {
     display: flex;
@@ -85,7 +68,7 @@
     flex-direction: column;
     font-style:italic;
   }
-
+  
   .green{
     display:inline;
     color:limegreen;

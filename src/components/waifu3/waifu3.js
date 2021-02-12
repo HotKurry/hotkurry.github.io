@@ -1,23 +1,19 @@
 import React from 'react';
-import './waifu.css';
+import './waifu3.css';
 
-var Web3 = require('web3');
-
-// "Web3.providers.givenProvider" will be set if in an Ethereum supported browser.
-var web3 = new Web3(Web3.givenProvider || 'wss://ropsten.infura.io/ws/v3/4edda353f1e74e81a5eeef199cab95d0');
 
 
 var waifutemp = {
-    imageSrc: 'http://localhost:3000/420man.jpg',
-    name: '$420 Elon',
+    imageSrc: 'http://localhost:3000/sidelook.jpg',
+    name: 'Guilty Elon',
     media: 'Anime',
     source: 'Pokémon',
-    flavortext: '"A ceiling is simply a floor from below"',
-    Partner: 'Buy DOGE',
-    rating: 2469,
-    Value: 9001
+    flavortext: '"Tesla stock price is too high imo"',
+    Partner: 'Buy sTSLA',
+    rating: 2069,
+    Value: 4339
   };
-  class waifu extends React.Component {
+  class waifu3 extends React.Component {
     render() {
         return(
           <div className="Cardbox">
@@ -46,4 +42,5 @@ var waifutemp = {
     )
     }
 }
-export default waifu;
+export default waifu3;
+

@@ -39,7 +39,9 @@ h1 {
   padding: .66rem 0;
   text-align: center;
   background-color: #212121;
-  font-family: Poppins, sans-serif;
+  font-family: 'Orbitron', sans-serif;
   font-size: 1.8rem;
-  color: #00bfa5;
+  color: #fd68ab;
+  font-weight:600;
+  
 }
