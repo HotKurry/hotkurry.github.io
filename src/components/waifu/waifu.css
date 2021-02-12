@@ -55,11 +55,7 @@
     text-align: center;
     padding-bottom: .5rem;
   }
-  
-  .value-info h3 {
-    color: #FF8000;
-    font-weight: 600;
-  }
+
   
   .value-info .rating {
     font-size: .88rem;
@@ -70,27 +66,9 @@
     line-height: 1rem;
     font-style:italic;
     font-weight:600;
-    margin: 0rem auto .5rem;
-  }
-  
-  .pricebox{
-    display: flex;
-    justify-content: space-between;
-    text-align: right;
-    flex-direction: column;
-  }
-  .namebox{
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    font-style:italic;
+    margin: .5rem auto .5rem;
   }
 
-  .green{
-    display:inline;
-    color:limegreen;
-    font-weight:600;
-  }
 .wifu-info .pricebox .green {
   font-weight:600;
 }
