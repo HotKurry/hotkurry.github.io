@@ -6,6 +6,19 @@ var Web3 = require('web3');
 // "Web3.providers.givenProvider" will be set if in an Ethereum supported browser.
 var web3 = new Web3(Web3.givenProvider || 'wss://ropsten.infura.io/ws/v3/4edda353f1e74e81a5eeef199cab95d0');
 
+const ethEnabled = () => {
+  if (window.ethereum) {
+    window.web3 = new Web3(window.ethereum);
+    window.ethereum.enable();
+    return true;
+  }
+  return false;
+}
+if (!ethEnabled()) {
+  alert("Please install an Ethereum-compatible browser or extension like MetaMask to use this dApp!");
+}
+
+
 
 var waifutemp = {
     imageSrc: 'http://localhost:3000/420man.jpg',
