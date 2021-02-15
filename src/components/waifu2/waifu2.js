@@ -7,7 +7,7 @@ var waifutemp = {
     media: 'Anime',
     source: 'Pokémon',
     flavortext: '"Nuke Mars!"',
-    Partner: 'Buy BTC',
+    Partner: 'BTC coming soon!',
     rating: 2069,
     Value: 4339
   };

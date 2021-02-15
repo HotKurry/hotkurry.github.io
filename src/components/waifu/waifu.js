@@ -26,7 +26,7 @@ var waifutemp = {
     media: 'Anime',
     source: 'Pokémon',
     flavortext: '"A ceiling is simply a floor from below"',
-    Partner: 'Buy DOGE',
+    Partner: 'DOGE coming soon!',
     rating: 2469,
     Value: 9001
   };
