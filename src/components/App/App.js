@@ -3,7 +3,7 @@ import './App.css';
 import SearchBar from '../SearchBar/SearchBar';
 import WaifuList from '../WaifuList/WaifuList';
 
-//WE ran out of time.
+//WE ran out of time.  Next Time
 class App extends React.Component {
   render(){
     return(
