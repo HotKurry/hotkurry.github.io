@@ -28,6 +28,17 @@
     align-items: center;
     padding: 0;
   }
+  .LeftContent,.RightContent{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 20vw;
+      height: 37rem;
+      margin: 1vh 5vw 0rem 5vw;
+      border-radius: 1rem;
+      cursor:pointer;
+  }
+
   .SubContent {
       text-align: center;
       padding: 10px;
