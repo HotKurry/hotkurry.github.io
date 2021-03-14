@@ -11,7 +11,13 @@
     border: none;
     -webkit-highlight: none;
 } 
-button:focus {outline:0;}
+button:focus, button {
+    outline:0;
+    border: none;
+    -webkit-highlight: none;
+    background-color: unset;
+    cursor:pointer;
+}
 
 .Content {
     position: absolute;
@@ -24,4 +30,15 @@ button:focus {outline:0;}
     justify-content: center;
     align-items: center;
     padding: 0;
+  }
+  #tryagain{
+      position:absolute;
+      top:0;
+      background-color:unset;
+      width:100%;
+      visibility: hidden;
+
+  }
+  #tryagain h1 {
+    padding: 1vh 42vw;
   }

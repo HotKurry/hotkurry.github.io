@@ -38,10 +38,15 @@ input:focus {
 h1 {
   padding: .66rem 0;
   text-align: center;
-  background-color: #212121;
   font-family: 'Orbitron', sans-serif;
   font-size: 1.8rem;
   color: #fd68ab;
   font-weight:600;
   
+}
+#buycoins {
+  position:absolute;
+  top:0;
+  width:100%;
+  color:whitesmoke;
 }
