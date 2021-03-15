@@ -1,3 +1,4 @@
 # This is an app for buying sTESLA
 
-https://imgur.com/a/h7b76fn
+<img src=https://i.imgur.com/AsGjuEx.gifv />
+
